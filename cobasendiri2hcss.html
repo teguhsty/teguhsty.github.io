@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BELAJAR LAYOUTING-DIV</title>
+	<style type="text/css">
+
+	body {
+		background-color: grey;
+	}
+
+	img {
+		width: 100%;
+	}
+	button {
+	background-color: #dbdd10; /* Green */
+	border: none;
+	padding: 16px 32px;
+
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: #09b193; 
+	color: white;
+	text-align: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover {
+	background-color: #b2506a;
+	color: white;
+}
+
+	#container {
+		width: 800px;
+		margin: auto;
+		background-color: white;
+	}
+
+	.logo {
+		float: left;
+		padding-left: 15px;
+	}
+	.menu {
+		float: right;
+		padding-right: 10px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+		color: black;
+
+	}
+
+	.menu:hover {
+		color: blue;
+
+	}
+
+	/*.menu li:hover {
+		color: red;
+		}*/
+		li {
+			display: inline;
+		}
+		.artikels {
+			clear: both;
+		}
+		.post {
+			clear: both;
+		}
+		/*masukam huruf dlm gbr*/
+		.banner {
+			padding: 20px;
+			position: relative;
+			box-sizing: border-box;
+
+		}
+		/*teks dalam gambar/baner*/
+		.headline {
+			position: absolute;
+			top: 90px;
+			left: 220px;
+			color: white;
+			font-size: 30px;
+			text-align: center;
+		}
+		/*merubah logo*/
+	/*.headline img {
+		width: 100px;
+		height: 100px;
+
+	}
+	*/
+	/*geser SKB*/
+	.skb img {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		top: 100px;
+		left: 220px;
+
+	}
+
+	.header {	
+		padding-bottom: 30px;
+		
+	}
+
+	.image {
+		float: left;
+		padding: 5px;
+
+		padding-right: 15px;
+	}
+	.intro {
+		/*padding-top: 10px;*/
+	}
+	.footer {
+		clear: both;
+		background-color: yellow;
+		color: red;
+		text-align: center;
+		/*padding: 10px;*/
+		font-size: 30px;
+
+	}
+	/*transparan huruf*/
+	.headline h1 {
+		opacity: 0.7;
+	}
+
+</style>
+</head>
+<body>
+	<div id="container">
+		
+		<div class="header">
+
+			<div class="logo">
+				<h1>Teguh STY</h1>
+			</div>	
+
+			<div class="menu">
+			<button>HOME</button> <button>PROFIL</button> 
+				
+			</div>
+		</div>
+
+			<div class="banner">
+				<img src="GAMBAR/photob1.jpg" >
+				<div class="headline">
+
+					<h1>Selamat Datang</h1>
+				</div>
+				<div class="skb">
+					<img src="HARIKEDUA/skb0.png">
+				</div>
+			</div>
+
+			<div class="artikels">
+				<h2>Artikel</h2>
+				<div class="post">
+					<div class="image">
+						<img src="GAMBAR/photo1.jpg">
+					</div>
+
+					<div class="intro">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Officia, dolorum error maiores ipsa quod consequatur corporis, rerum minima sit cum, fugiat totam! Nesciunt illo, excepturi totam, deleniti praesentium deserunt explicabo</p>
+					</div>	
+
+				</div>	
+				<div class="post">
+					<div class="image">
+						<img src="GAMBAR/photo1.jpg">
+					</div>
+
+					<div class="intro">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Officia, dolorum error maiores ipsa quod consequatur corporis, rerum minima sit cum, fugiat totam! Nesciunt illo, excepturi totam, deleniti praesentium deserunt explicabo</p>
+					</div>	
+
+				</div>	
+				<div class="post">
+					<div class="image">
+						<img src="GAMBAR/photo1.jpg">
+					</div>
+
+					<div class="intro">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Officia, dolorum error maiores ipsa quod consequatur corporis, rerum minima sit cum, fugiat totam! Nesciunt illo, excepturi totam, deleniti praesentium deserunt explicabo</p>
+					</div>	
+
+				</div>	
+			</div>
+			<div class="footer">
+				<p><strong>&copy; TeguhSty</strong></p>
+			</div>
+
+		</div>
+
+
+	</body>
+	</html>

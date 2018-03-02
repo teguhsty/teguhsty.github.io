@@ -1,0 +1,30 @@
+body {
+	/*background-color: black;*/
+}
+
+.header {
+	background-color: white;
+}
+
+.tinggi {
+	height: 500px;
+
+}
+.rendah {
+	background-color: red;
+	height: 500px;
+}
+/*.jumbotron {
+	background-image: url(../photob1.jpg);
+	background-size: cover;
+	height: 400px;
+	margin-top: 70px;*/
+}
+
+/*teks tombol*/
+.btn {
+	color: yellow;
+}
+.sizeicon {
+	font-size:55px
+}
